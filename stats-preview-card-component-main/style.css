@@ -1,0 +1,43 @@
+body{
+    background: hsl(233, 47%, 7%);
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+.container {
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+   
+}
+.imgd {
+    
+    display: block;
+    opacity: 0.4;
+}
+.conto{
+    background-color: hsl(293, 40%, 17%);
+    opacity: 1;   
+}
+.card{
+    display: flex;
+}
+.text1{
+    width: 500px;
+    background: hsl(244, 38%, 16%);
+    padding: 5%;
+}
+.text1 h1 strong{
+    color: hsl(277, 64%, 61%);
+}
+.info{
+    font-size: 80%;
+    font-weight: 200;
+}
+.tabla{
+    display: flex;
+    margin-top: 20px;
+    
+}
+td{
+    width: 30px;
+}
