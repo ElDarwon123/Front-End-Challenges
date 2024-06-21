@@ -1,0 +1,124 @@
+body {
+    background: url('/images/bg-desktop.svg') hsl(257, 40%, 49%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.cont {
+    width: 80%;
+    margin-left: 3%;
+}
+
+#logo {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 18%;
+}
+
+.content {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mocks {
+    width: 50%;
+    height: 20%;
+}
+
+.textz {
+    display: block;
+    margin-top: 2%;
+}
+
+.text1 {
+    width: 450px;
+}
+
+#title {
+    width: 400px;
+}
+
+#btng {
+    background: hsl(0, 0%, 100%);
+    border-style: none;
+    width: 150px;
+    color: hsl(257, 40%, 49%);
+    border-radius: 50px;
+    font-size: 100%;
+}
+
+#btng:hover {
+    background: hsl(300, 69%, 71%);
+    border-style: none;
+    width: 150px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    font-size: 100%;
+}
+
+@media(max-width: 700px) {
+    body {
+        background: url('/images/bg-desktop.svg') hsl(257, 40%, 49%);
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .cont {
+        width: 370px;
+        margin-left: 3%;
+    }
+
+    #logo {
+        margin-top: 3%;
+        margin-left: 5%;
+        width: 40%;
+    }
+
+    .content {
+        margin-top: 7%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mocks {
+        width: 120%;
+        height: 20%;
+        
+    }
+
+    .textz {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .text1 {
+        width: 450px;;
+    }
+
+    #title {
+        width: 400px;
+    }
+
+    #btng {
+        background: hsl(0, 0%, 100%);
+        border-style: none;
+        width: 150px;
+        color: hsl(257, 40%, 49%);
+        border-radius: 50px;
+        font-size: 100%;
+        margin-left: 50px;
+    }
+
+    #btng:hover {
+        background: hsl(300, 69%, 71%);
+        border-style: none;
+        width: 150px;
+        color: hsl(0, 0%, 100%);
+        border-radius: 50px;
+        font-size: 100%;
+        margin-left: 50px;
+    }
+}
